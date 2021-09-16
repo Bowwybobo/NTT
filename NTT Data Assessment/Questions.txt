@@ -1,0 +1,6 @@
+QUESTIONS FOR THE BA
+
+
+Why is the mobile field only allowed 10 digits?
+Can a user use only alpha numeric as their first or last name? I tried it and it passed. Please clarify
+Can you specify the error message to be displayed if a user enters an invalid data
