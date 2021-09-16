@@ -1,0 +1,98 @@
+,,,,,,
+User Story Title,Description,Acceptance Criteria,Test Case,Steps,Description,Expected Result
+Student Registration Form,Register as a student,Successfully register as a student,Register as a student using valid information (Default),Step 1,Navigate to Website,Website should open
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,Given I am on the registration page,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,When I enter my first name,,Step 4,"Enter Valid Email “bowale@gmail.com""",Should be successful
+,,And I enter my last name,,Step 5,Select Male As Gender,Should be successful
+,,And I enter a valid email,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,And I select a gender,,Step 7,Click Submit,Pop up with sent information should appear
+,,And I enter my mobile number,,,,
+,,And I click submit,,,,
+,,Then I should see a pop up showing sent information,,,,
+,,,,,,
+,,,,,,
+,,,             POSITIVE SCENARIOS,,,
+,,,,,,
+,,,Register using valid information and select female as gender,Step 1,Navigate to Website,Website should open
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Female As Gender,Should be successful
+,,,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 7,Click Submit,Pop up with sent information should appear
+,,,,,,
+,,,,,,
+,,,Use more than 1 alpha numeric in first name,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “bowale12”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Male As Gender,Should be successful
+,,,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 7,Click Submit,Pop up with sent information should appear
+,,,,,,
+,,,,,,
+,,,Make first letter of first and last name upper case,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “Bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “Nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Female As Gender,Should be successful
+,,,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 7,Click Submit,Pop up with sent information should appear
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,             NEGATIVE SCENARIOS,,,
+,,,,,,
+,,,,,,
+,,,Register using no alpha numeric in first and last name,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter First Name “bowale”,Should be successful
+,,,,Step 3,Enter Last Name “Nubi”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Male As Gender,Should be successful
+,,,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 7,Click Submit,Pop up shouldn’t appear
+,,,,,,
+,,,,,,
+,,,Register with no gender selected,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 6,Click Submit,Pop up shouldn’t appear
+,,,,,,
+,,,,,,
+,,,Use 9 digits in the mobile field,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Female As Gender,Should be successful
+,,,,Step 6,Enter Mobile Number “123456789”,Should be successful
+,,,,Step 7,Click Submit,Pop up shouldn’t appear
+,,,,,,
+,,,,,,
+,,,Use invalid email address,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Email Address “John”,Should be successful
+,,,,Step 5,Select Male As Gender,Should be successful
+,,,,Step 6,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 7,Click Submit,Pop up shouldn’t appear
+,,,,,,
+,,,,,,
+,,,Add letter and numbers to the mobile field,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid First Name “bowale1”,Should be successful
+,,,,Step 3,Enter Valid Last Name “nubi2”,Should be successful
+,,,,Step 4,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 5,Select Male As Gender,Should be successful
+,,,,Step 6,"Enter Mobile Number “12345678QA""",Should be successful
+,,,,Step 7,Click Submit,Pop up shouldn’t appear
+,,,,,,
+,,,,,,
+,,,Leave first name field blank,Step 1,Navigate to Website,Should be successful
+,,,,Step 2,Enter Valid Last Name “Nubi2”,Should be successful
+,,,,Step 3,Enter Valid Email “bowale@gmail.com”,Should be successful
+,,,,Step 4,Select Male As Gender,Should be successful
+,,,,Step 5,Enter Valid Mobile Number “0794552134”,Should be successful
+,,,,Step 6,Click Submit,Pop up shouldn’t appear
